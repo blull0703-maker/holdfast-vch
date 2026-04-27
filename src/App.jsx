@@ -224,8 +224,7 @@ export default function HoldfastApp() {
   const [subIdx, setSubIdx] = useState(0);
   const [lightbox, setLightbox] = useState(null);
 const [activePulse, setActivePulse] = useState(null);
-  const [activePulse, setActivePulse] = useState(null);
-  const mouseRef = useRef(null);
+   const mouseRef = useRef(null);
 
   // Subtitle carousel
   useEffect(() => {
