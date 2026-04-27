@@ -318,12 +318,12 @@ const [activePulse, setActivePulse] = useState(null);
 
             {/* Hero image */}
             <div onClick={() => setLightbox(IMG+"sign.png")} style={{ borderRadius:18, overflow:"hidden", marginBottom:20, border:"1px solid rgba(199,120,51,0.12)", cursor:"zoom-in" }}>
-              <img src={IMG+"moraine.png"} alt="The Holdfast" style={{ width:"100%", height:220, objectFit:"cover", display:"block" }} />
+              <img src={IMG+"sign.png"} alt="The Holdfast" style={{ width:"100%", height:220, objectFit:"cover", display:"block" }} />
             </div>
 
             {/* Stats grid */}
             <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr", gap:10, marginBottom:20 }}>
-              {[{v:"11",u:"acres",l:"Fresno State / VCH partnership"},{v:"75K",u:"sq ft",l:"indoor exhibit space"},{v:"200K",u:"",l:"visitors by 2035"},{v:"500+",u:"",l:"scholarships, by 2040"}].map((s,i) => (
+              {[{v:"11",u:"acres",l:"Fresno State / VCH partnership"},{v:"75K",u:"sq ft",l:"indoor exhibit space"},{v:"200K",u:"",l:"visitors by 2035"},{v:"500+",u:"",l:"scholarships by 2040"}].map((s,i) => (
                 <div key={i} style={{ padding:"18px 14px", borderRadius:18, textAlign:"center", ...card }}>
                   <div style={{ fontFamily:M, fontSize:22, fontWeight:700, color:"#C77833" }}>{s.v}<span style={{ fontSize:10, color:"#8B7B65", marginLeft:2 }}>{s.u}</span></div>
                   <div style={{ fontSize:10, color:"#8B7B65", marginTop:4, fontFamily:M, lineHeight:1.3 }}>{s.l}</div>
