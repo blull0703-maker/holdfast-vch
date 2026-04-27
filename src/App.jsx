@@ -18,8 +18,8 @@ const pulses = [
   { name:"Watersheds Trail",         left:52, top:67, color:"#E8A849", phase:"campus",  idx:5 },
   { name:"The Moraine",              left:70, top:67, color:"#8B7355", phase:"campus",  idx:0 },
   { name:"Visit California Confluence", left:76, top:70, color:"#6BA8C7", phase:"campus",  idx:4 },
-  { name:"The Holdfast",             left:84, top:63, color:"#C75533" }, phase:"museum",  idx:0 },
-  { name:"Sierra-Salmon Pass",       left:81, top:75, color:"#4A8B6B" }, phase:"campus",  idx:6 },
+  { name:"The Holdfast",             left:84, top:63, color:"#C75533", phase:"museum",  idx:0 },
+  { name:"Sierra-Salmon Pass",       left:81, top:75, color:"#4A8B6B", phase:"campus",  idx:6 },
 ];
 
 // ══════════════════════════════════════════════════════════════
